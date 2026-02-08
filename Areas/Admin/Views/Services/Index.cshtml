@@ -1,0 +1,33 @@
+﻿@model List<DentalBookingMvc.Models.Service>
+@{
+    ViewData["Title"] = "Usługi - Admin";
+}
+
+<h2>Usługi</h2>
+
+<a class="btn btn-success mb-3" asp-action="Create">Dodaj usługę</a>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Nazwa</th>
+            <th>Cena</th>
+            <th>Czas</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var s in Model)
+        {
+            <tr>
+                <td>@s.Name</td>
+                <td>@s.Price.ToString("0.00") zł</td>
+                <td>@s.DefaultDurationMinutes min</td>
+                <td class="text-end">
+                    <a class="btn btn-sm btn-outline-primary" asp-action="Edit" asp-route-id="@s.Id">Edytuj</a>
+                    <a class="btn btn-sm btn-outline-danger" asp-action="Delete" asp-route-id="@s.Id">Usuń</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

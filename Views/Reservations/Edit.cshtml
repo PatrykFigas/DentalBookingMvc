@@ -1,0 +1,70 @@
+﻿@model DentalBookingMvc.Models.ReservationEditVm
+@{
+    ViewData["Title"] = "Edytuj rezerwację";
+    var service = ViewBag.Service as DentalBookingMvc.Models.Service;
+    var slots = ViewBag.Slots as List<DentalBookingMvc.Models.TimeSlot>;
+}
+
+<h2>Edytuj rezerwację</h2>
+
+@if (service != null)
+{
+    <p><strong>Usługa:</strong> @service.Name</p>
+}
+
+<form asp-action="Edit" method="post" class="mt-3" id="editForm">
+    @Html.AntiForgeryToken()
+    <input type="hidden" asp-for="Id" />
+    <input type="hidden" asp-for="ServiceId" />
+    <input type="hidden" asp-for="DentistId" />
+
+    <div class="mb-3">
+        <label class="form-label">Termin</label>
+        <select class="form-select" asp-for="TimeSlotId" id="timeSlotSelect">
+            <option value="">-- wybierz termin --</option>
+            @if (slots != null)
+            {
+                foreach (var t in slots)
+                {
+                    <option value="@t.Id">
+                        @t.Start.ToString("dd.MM.yyyy HH:mm") | @t.Dentist.FullName
+                    </option>
+                }
+            }
+        </select>
+        <span asp-validation-for="TimeSlotId" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Uwagi</label>
+        <textarea class="form-control" asp-for="Note" rows="3" id="noteBox"></textarea>
+        <div class="form-text"><span id="noteCount">0</span>/500</div>
+        <span asp-validation-for="Note" class="text-danger"></span>
+    </div>
+
+    <button class="btn btn-primary" type="submit" id="saveBtn">Zapisz</button>
+    <a class="btn btn-secondary" asp-action="My">Wróć</a>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+    <script>
+        const sel = document.getElementById("timeSlotSelect");
+        const btn = document.getElementById("saveBtn");
+        const note = document.getElementById("noteBox");
+        const cnt = document.getElementById("noteCount");
+
+        function refreshBtn() {
+            btn.disabled = !sel.value;
+        }
+        function refreshCount() {
+            cnt.textContent = (note.value || "").length;
+        }
+
+        sel.addEventListener("change", refreshBtn);
+        note.addEventListener("input", refreshCount);
+
+        refreshBtn();
+        refreshCount();
+    </script>
+}

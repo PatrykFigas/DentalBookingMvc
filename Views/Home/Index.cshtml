@@ -1,0 +1,49 @@
+﻿@{
+    ViewData["Title"] = "Strona główna";
+}
+
+<div class="card section-card mb-4">
+    <div class="card-body">
+        <div class="row align-items-center">
+            <div class="col-md-7">
+                <h1 class="mb-2">
+                    Klinika dentystyczna <br />
+                    <span style="color:#7CB8F7;">„Zdrowy uśmiech”</span>
+                </h1>
+
+                <p class="text-muted mt-3">
+                    Nowoczesna opieka stomatologiczna, doświadczeni lekarze oraz wygodny system rezerwacji wizyt online.
+                </p>
+
+                <div class="d-flex gap-2 flex-wrap mt-4">
+                    <a class="btn btn-primary"
+                       asp-controller="Services"
+                       asp-action="Index">
+                        Umów wizytę
+                    </a>
+
+                    @if (!User.Identity?.IsAuthenticated ?? true)
+                    {
+                        <a class="btn btn-outline-primary"
+                           asp-area="Identity"
+                           asp-page="/Account/Register">
+                            Załóż konto
+                        </a>
+                    }
+                </div>
+            </div>
+
+            <div class="col-md-5 text-center mt-4 mt-md-0">
+                <div class="kpi text-start">
+                    <div class="kpi-label">Dlaczego my?</div>
+                    <ul class="mb-0 mt-2 ps-3">
+                        <li>Doświadczeni dentyści</li>
+                        <li>Nowoczesny sprzęt</li>
+                        <li>Rezerwacja online</li>
+                        <li>Przyjazna obsługa</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

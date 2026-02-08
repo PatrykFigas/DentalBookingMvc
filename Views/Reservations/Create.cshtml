@@ -1,0 +1,114 @@
+﻿@using DentalBookingMvc.Models
+@model DentalBookingMvc.Models.ReservationCreateVm
+
+@{
+    ViewData["Title"] = "Rezerwacja wizyty";
+    var service = ViewBag.Service as Service;
+    var slots = ViewBag.Slots as List<TimeSlot>;
+}
+
+<div class="d-flex align-items-start justify-content-between flex-wrap gap-2 mb-3">
+    <div>
+        <h2 class="mb-1">Rezerwacja wizyty</h2>
+        <div class="text-muted">Wybierz termin i dodaj ewentualne uwagi.</div>
+    </div>
+
+    <a asp-controller="Services" asp-action="Index" class="btn btn-outline-primary">
+        ← Wróć do usług
+    </a>
+</div>
+
+@if (service != null)
+{
+    <div class="card mb-4">
+        <div class="card-body">
+            <div class="d-flex align-items-start justify-content-between flex-wrap gap-3">
+                <div>
+                    <div class="text-muted mb-1">Wybrana usługa</div>
+                    <div class="h5 mb-1">@service.Name</div>
+                    <div class="text-muted">@service.Description</div>
+                </div>
+
+                <div class="text-end">
+                    <div class="text-muted mb-1">Cena</div>
+                    <div class="h5 mb-1">@service.Price.ToString("0.00") zł</div>
+                    <div class="text-muted">Czas: @service.DefaultDurationMinutes min</div>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+@if (slots == null || !slots.Any())
+{
+    <div class="alert alert-warning">
+        Brak dostępnych terminów dla wybranego dentysty.
+        <div class="mt-2">
+            <a asp-controller="Services" asp-action="Index" class="btn btn-sm btn-outline-primary">
+                Wybierz inną usługę
+            </a>
+        </div>
+    </div>
+}
+
+<div class="card">
+    <div class="card-body">
+        <form asp-action="Create" method="post" id="reservationForm">
+            @Html.AntiForgeryToken()
+
+            <input type="hidden" asp-for="ServiceId" />
+            <input type="hidden" asp-for="DentistId" />
+
+            <div class="mb-3">
+                <label asp-for="TimeSlotId" class="form-label">Termin</label>
+                <select asp-for="TimeSlotId" class="form-select" id="slotSelect" required>
+                    <option value="">-- wybierz termin --</option>
+                    @if (slots != null)
+                    {
+                        foreach (var slot in slots)
+                        {
+                            <option value="@slot.Id">
+                                @slot.Start.ToString("dd.MM.yyyy HH:mm") | @slot.Dentist.FullName
+                            </option>
+                        }
+                    }
+                </select>
+                <span asp-validation-for="TimeSlotId" class="text-danger"></span>
+                <div class="form-text">
+                    Pokazujemy tylko aktywne i wolne terminy.
+                </div>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="Note" class="form-label">Uwagi (opcjonalnie)</label>
+                <textarea asp-for="Note" class="form-control" rows="3" placeholder="Np. preferowana godzina, informacje dla dentysty..."></textarea>
+                <span asp-validation-for="Note" class="text-danger"></span>
+            </div>
+
+            <div class="d-flex gap-2 flex-wrap">
+                <button type="submit" class="btn btn-primary" id="reserveBtn" disabled>
+                    Zarezerwuj
+                </button>
+
+                <a asp-controller="Services" asp-action="Index" class="btn btn-secondary">
+                    Anuluj
+                </a>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+    <script>
+        const sel = document.getElementById("slotSelect");
+        const btn = document.getElementById("reserveBtn");
+
+        function refreshBtn() {
+            btn.disabled = !sel.value;
+        }
+
+        sel.addEventListener("change", refreshBtn);
+        refreshBtn();
+    </script>
+}

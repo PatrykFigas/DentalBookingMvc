@@ -1,0 +1,100 @@
+﻿@using DentalBookingMvc.Models
+@model List<DentalBookingMvc.Models.Reservation>
+
+@{
+    ViewData["Title"] = "Rezerwacje - Admin";
+}
+
+<div class="page-header">
+    <div>
+        <h2 class="mb-1">Rezerwacje</h2>
+        <div class="page-subtitle">Zatwierdzaj lub odrzucaj zgłoszenia użytkowników.</div>
+    </div>
+    <a class="btn btn-outline-primary"
+       asp-area="Admin"
+       asp-controller="Dashboard"
+       asp-action="Index">
+        ← Panel admina
+    </a>
+</div>
+
+@if (TempData["Ok"] != null)
+{
+    <div class="alert alert-success">@TempData["Ok"]</div>
+}
+@if (TempData["Error"] != null)
+{
+    <div class="alert alert-danger">@TempData["Error"]</div>
+}
+
+@if (!Model.Any())
+{
+    <div class="card section-card">
+        <div class="card-body">
+            <div class="text-muted">Brak rezerwacji.</div>
+        </div>
+    </div>
+}
+else
+{
+    <table class="table table-striped align-middle">
+        <thead>
+            <tr>
+                <th>Użytkownik</th>
+                <th>Usługa</th>
+                <th>Dentysta</th>
+                <th>Termin</th>
+                <th>Status</th>
+                <th class="text-end">Akcje</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var r in Model)
+            {
+                <tr>
+                    <td>@(r.User?.UserName ?? r.UserId)</td>
+                    <td>@r.Service?.Name</td>
+                    <td>@r.TimeSlot?.Dentist?.FullName</td>
+                    <td>@r.TimeSlot?.Start.ToString("dd.MM.yyyy HH:mm")</td>
+                    <td>
+                        @switch (r.Status)
+                        {
+                            case ReservationStatus.Pending:
+                                <span class="badge bg-warning">Oczekuje</span>
+                                break;
+                            case ReservationStatus.Approved:
+                                <span class="badge bg-success">Zatwierdzona</span>
+                                break;
+                            case ReservationStatus.Cancelled:
+                                <span class="badge bg-secondary">Anulowana</span>
+                                break;
+                            case ReservationStatus.Rejected:
+                                <span class="badge bg-danger">Odrzucona</span>
+                                break;
+                        }
+                    </td>
+                    <td class="text-end">
+                        @if (r.Status == ReservationStatus.Pending)
+                        {
+                            <form asp-area="Admin" asp-controller="Reservations" asp-action="Approve" method="post" class="d-inline">
+                                @Html.AntiForgeryToken()
+                                <input type="hidden" name="id" value="@r.Id" />
+                                <button type="submit" class="btn btn-success btn-sm">Zatwierdź</button>
+                            </form>
+
+                            <form asp-area="Admin" asp-controller="Reservations" asp-action="Reject" method="post" class="d-inline">
+                                @Html.AntiForgeryToken()
+                                <input type="hidden" name="id" value="@r.Id" />
+                                <button type="submit" class="btn btn-danger btn-sm">Odrzuć</button>
+                            </form>
+                        }
+                        else
+                        {
+                            <span class="text-muted">—</span>
+                        }
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}

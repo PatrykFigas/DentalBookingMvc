@@ -1,0 +1,40 @@
+﻿@model DentalBookingMvc.Models.Service
+@{
+    ViewData["Title"] = "Edytuj usługę";
+}
+
+<h2>Dodaj usługę</h2>
+
+<form method="post">
+    @Html.AntiForgeryToken()
+    <div class="mb-3">
+        <label class="form-label">Nazwa</label>
+        <input class="form-control" asp-for="Name" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Opis</label>
+        <textarea class="form-control" asp-for="Description" rows="3"></textarea>
+        <span asp-validation-for="Description" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Cena</label>
+        <input class="form-control" asp-for="Price" />
+        <span asp-validation-for="Price" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Domyślny czas (min)</label>
+        <input class="form-control" asp-for="DefaultDurationMinutes" />
+        <span asp-validation-for="DefaultDurationMinutes" class="text-danger"></span>
+    </div>
+
+    <button class="btn btn-success" type="submit">Zapisz</button>
+    <a class="btn btn-secondary" asp-action="Index">Wróć</a>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

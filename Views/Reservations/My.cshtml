@@ -1,0 +1,111 @@
+﻿@model List<DentalBookingMvc.Models.Reservation>
+@using DentalBookingMvc.Models
+
+@{
+    ViewData["Title"] = "Moje wizyty";
+}
+
+<div class="page-header">
+    <div>
+        <h2 class="mb-1">Moje wizyty</h2>
+        <div class="page-subtitle">Historia i zarządzanie Twoimi rezerwacjami.</div>
+    </div>
+    <a asp-controller="Services" asp-action="Index" class="btn btn-primary">+ Umów wizytę</a>
+</div>
+
+@if (TempData["Ok"] != null)
+{
+    <div class="alert alert-success">@TempData["Ok"]</div>
+}
+@if (TempData["Error"] != null)
+{
+    <div class="alert alert-danger">@TempData["Error"]</div>
+}
+
+@if (!Model.Any())
+{
+    <div class="card section-card">
+        <div class="card-body">
+            <div class="text-muted">Nie masz jeszcze żadnych rezerwacji.</div>
+        </div>
+    </div>
+}
+else
+{
+    <table class="table table-striped align-middle">
+        <thead>
+            <tr>
+                <th>Usługa</th>
+                <th>Dentysta</th>
+                <th>Termin</th>
+                <th>Status</th>
+                <th class="text-end">Akcje</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var r in Model)
+            {
+                var now = DateTime.Now;
+                var canEditByTime = r.TimeSlot != null && r.TimeSlot.Start > now.AddHours(24);
+                var canEditByStatus = r.Status == ReservationStatus.Pending || r.Status == ReservationStatus.Approved;
+                var canEdit = canEditByTime && canEditByStatus;
+
+                var canCancelByTime = r.TimeSlot != null && r.TimeSlot.Start > now.AddHours(24);
+                var canCancelByStatus = r.Status == ReservationStatus.Pending || r.Status == ReservationStatus.Approved;
+                var canCancel = canCancelByTime && canCancelByStatus;
+
+                <tr>
+                    <td>@r.Service?.Name</td>
+                    <td>@r.TimeSlot?.Dentist?.FullName</td>
+                    <td>@r.TimeSlot?.Start.ToString("dd.MM.yyyy HH:mm")</td>
+                    <td>
+                        @switch (r.Status)
+                        {
+                            case ReservationStatus.Pending:
+                                <span class="badge bg-warning">Oczekuje</span>
+                                break;
+                            case ReservationStatus.Approved:
+                                <span class="badge bg-success">Zatwierdzona</span>
+                                break;
+                            case ReservationStatus.Cancelled:
+                                <span class="badge bg-secondary">Anulowana</span>
+                                break;
+                            case ReservationStatus.Rejected:
+                                <span class="badge bg-danger">Odrzucona</span>
+                                break;
+                        }
+                    </td>
+
+                    <td class="text-end">
+                        @if (canEdit)
+                        {
+                            <a class="btn btn-outline-primary btn-sm"
+                               asp-controller="Reservations"
+                               asp-action="Edit"
+                               asp-route-id="@r.Id">
+                                Edytuj
+                            </a>
+                        }
+                        else
+                        {
+                            <span class="text-muted me-2">—</span>
+                        }
+
+                        @if (canCancel)
+                        {
+                            <form asp-action="Cancel" method="post" class="d-inline">
+                                @Html.AntiForgeryToken()
+                                <input type="hidden" name="id" value="@r.Id" />
+                                <button type="submit" class="btn btn-danger btn-sm">Anuluj</button>
+                            </form>
+                        }
+                        else
+                        {
+                            <span class="text-muted ms-2">—</span>
+                        }
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}

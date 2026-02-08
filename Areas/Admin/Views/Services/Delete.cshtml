@@ -1,0 +1,16 @@
+﻿@model DentalBookingMvc.Models.Service
+@{
+    ViewData["Title"] = "Usuń usługę";
+}
+
+<h2>Usuń usługę</h2>
+
+<div class="alert alert-warning">
+    Na pewno usunąć usługę: <strong>@Model.Name</strong>?
+</div>
+
+<form method="post">
+    @Html.AntiForgeryToken()
+    <button class="btn btn-danger" type="submit">Usuń</button>
+    <a class="btn btn-secondary" asp-action="Index">Anuluj</a>
+</form>

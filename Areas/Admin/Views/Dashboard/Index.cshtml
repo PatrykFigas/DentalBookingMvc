@@ -1,0 +1,56 @@
+﻿@{
+    ViewData["Title"] = "Panel admina";
+}
+
+<div class="page-header">
+    <div>
+        <h2 class="mb-1">Panel admina</h2>
+        <div class="page-subtitle">
+            Zarządzaj terminami i rezerwacjami w systemie.
+        </div>
+    </div>
+</div>
+
+<div class="row g-3">
+    <div class="col-md-6">
+        <div class="card section-card">
+            <div class="card-body">
+                <h5 class="card-title mb-1">Rezerwacje</h5>
+                <div class="text-muted mb-3">
+                    Zatwierdzaj lub odrzucaj wizyty użytkowników.
+                </div>
+                <a class="btn btn-primary"
+                   asp-area="Admin"
+                   asp-controller="Reservations"
+                   asp-action="Index">
+                    Przejdź do rezerwacji
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-6">
+        <div class="card section-card">
+            <div class="card-body">
+                <h5 class="card-title mb-1">Terminy</h5>
+                <div class="text-muted mb-3">
+                    Dodawaj i zarządzaj dostępnymi terminami.
+                </div>
+                <div class="d-flex gap-2 flex-wrap">
+                    <a class="btn btn-primary"
+                       asp-area="Admin"
+                       asp-controller="TimeSlots"
+                       asp-action="Index">
+                        Lista terminów
+                    </a>
+                    <a class="btn btn-outline-primary"
+                       asp-area="Admin"
+                       asp-controller="TimeSlots"
+                       asp-action="Create">
+                        + Dodaj termin
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

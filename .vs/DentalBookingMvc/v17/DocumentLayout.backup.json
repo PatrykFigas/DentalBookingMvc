@@ -1,0 +1,717 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\patry\\Desktop\\DentalBookingMvc\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2CD2D2B5-FE36-FEB0-76BC-6E7F9BE55D7E}|DentalBookingMvc.csproj|c:\\users\\patry\\desktop\\dentalbookingmvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2CD2D2B5-FE36-FEB0-76BC-6E7F9BE55D7E}|DentalBookingMvc.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CD2D2B5-FE36-FEB0-76BC-6E7F9BE55D7E}|DentalBookingMvc.csproj|c:\\users\\patry\\desktop\\dentalbookingmvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2CD2D2B5-FE36-FEB0-76BC-6E7F9BE55D7E}|DentalBookingMvc.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CD2D2B5-FE36-FEB0-76BC-6E7F9BE55D7E}|DentalBookingMvc.csproj|c:\\users\\patry\\desktop\\dentalbookingmvc\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2CD2D2B5-FE36-FEB0-76BC-6E7F9BE55D7E}|DentalBookingMvc.csproj|solutionrelative:views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CD2D2B5-FE36-FEB0-76BC-6E7F9BE55D7E}|DentalBookingMvc.csproj|c:\\users\\patry\\desktop\\dentalbookingmvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CD2D2B5-FE36-FEB0-76BC-6E7F9BE55D7E}|DentalBookingMvc.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CD2D2B5-FE36-FEB0-76BC-6E7F9BE55D7E}|DentalBookingMvc.csproj|c:\\users\\patry\\desktop\\dentalbookingmvc\\areas\\admin\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2CD2D2B5-FE36-FEB0-76BC-6E7F9BE55D7E}|DentalBookingMvc.csproj|solutionrelative:areas\\admin\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CD2D2B5-FE36-FEB0-76BC-6E7F9BE55D7E}|DentalBookingMvc.csproj|c:\\users\\patry\\desktop\\dentalbookingmvc\\areas\\admin\\views\\timeslots\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2CD2D2B5-FE36-FEB0-76BC-6E7F9BE55D7E}|DentalBookingMvc.csproj|solutionrelative:areas\\admin\\views\\timeslots\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CD2D2B5-FE36-FEB0-76BC-6E7F9BE55D7E}|DentalBookingMvc.csproj|c:\\users\\patry\\desktop\\dentalbookingmvc\\areas\\admin\\views\\services\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2CD2D2B5-FE36-FEB0-76BC-6E7F9BE55D7E}|DentalBookingMvc.csproj|solutionrelative:areas\\admin\\views\\services\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CD2D2B5-FE36-FEB0-76BC-6E7F9BE55D7E}|DentalBookingMvc.csproj|c:\\users\\patry\\desktop\\dentalbookingmvc\\areas\\admin\\views\\timeslots\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2CD2D2B5-FE36-FEB0-76BC-6E7F9BE55D7E}|DentalBookingMvc.csproj|solutionrelative:areas\\admin\\views\\timeslots\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CD2D2B5-FE36-FEB0-76BC-6E7F9BE55D7E}|DentalBookingMvc.csproj|c:\\users\\patry\\desktop\\dentalbookingmvc\\areas\\admin\\views\\reservations\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2CD2D2B5-FE36-FEB0-76BC-6E7F9BE55D7E}|DentalBookingMvc.csproj|solutionrelative:areas\\admin\\views\\reservations\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CD2D2B5-FE36-FEB0-76BC-6E7F9BE55D7E}|DentalBookingMvc.csproj|c:\\users\\patry\\desktop\\dentalbookingmvc\\views\\reservations\\my.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2CD2D2B5-FE36-FEB0-76BC-6E7F9BE55D7E}|DentalBookingMvc.csproj|solutionrelative:views\\reservations\\my.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CD2D2B5-FE36-FEB0-76BC-6E7F9BE55D7E}|DentalBookingMvc.csproj|c:\\users\\patry\\desktop\\dentalbookingmvc\\views\\reservations\\choosedentist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2CD2D2B5-FE36-FEB0-76BC-6E7F9BE55D7E}|DentalBookingMvc.csproj|solutionrelative:views\\reservations\\choosedentist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CD2D2B5-FE36-FEB0-76BC-6E7F9BE55D7E}|DentalBookingMvc.csproj|c:\\users\\patry\\desktop\\dentalbookingmvc\\views\\services\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2CD2D2B5-FE36-FEB0-76BC-6E7F9BE55D7E}|DentalBookingMvc.csproj|solutionrelative:views\\services\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CD2D2B5-FE36-FEB0-76BC-6E7F9BE55D7E}|DentalBookingMvc.csproj|c:\\users\\patry\\desktop\\dentalbookingmvc\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{2CD2D2B5-FE36-FEB0-76BC-6E7F9BE55D7E}|DentalBookingMvc.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CD2D2B5-FE36-FEB0-76BC-6E7F9BE55D7E}|DentalBookingMvc.csproj|c:\\users\\patry\\desktop\\dentalbookingmvc\\views\\reservations\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2CD2D2B5-FE36-FEB0-76BC-6E7F9BE55D7E}|DentalBookingMvc.csproj|solutionrelative:views\\reservations\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CD2D2B5-FE36-FEB0-76BC-6E7F9BE55D7E}|DentalBookingMvc.csproj|c:\\users\\patry\\desktop\\dentalbookingmvc\\areas\\admin\\controllers\\timeslotscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CD2D2B5-FE36-FEB0-76BC-6E7F9BE55D7E}|DentalBookingMvc.csproj|solutionrelative:areas\\admin\\controllers\\timeslotscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CD2D2B5-FE36-FEB0-76BC-6E7F9BE55D7E}|DentalBookingMvc.csproj|c:\\users\\patry\\desktop\\dentalbookingmvc\\models\\timeslot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CD2D2B5-FE36-FEB0-76BC-6E7F9BE55D7E}|DentalBookingMvc.csproj|solutionrelative:models\\timeslot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CD2D2B5-FE36-FEB0-76BC-6E7F9BE55D7E}|DentalBookingMvc.csproj|c:\\users\\patry\\desktop\\dentalbookingmvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CD2D2B5-FE36-FEB0-76BC-6E7F9BE55D7E}|DentalBookingMvc.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CD2D2B5-FE36-FEB0-76BC-6E7F9BE55D7E}|DentalBookingMvc.csproj|c:\\users\\patry\\desktop\\dentalbookingmvc\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2CD2D2B5-FE36-FEB0-76BC-6E7F9BE55D7E}|DentalBookingMvc.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CD2D2B5-FE36-FEB0-76BC-6E7F9BE55D7E}|DentalBookingMvc.csproj|c:\\users\\patry\\desktop\\dentalbookingmvc\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2CD2D2B5-FE36-FEB0-76BC-6E7F9BE55D7E}|DentalBookingMvc.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CD2D2B5-FE36-FEB0-76BC-6E7F9BE55D7E}|DentalBookingMvc.csproj|c:\\users\\patry\\desktop\\dentalbookingmvc\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2CD2D2B5-FE36-FEB0-76BC-6E7F9BE55D7E}|DentalBookingMvc.csproj|solutionrelative:views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CD2D2B5-FE36-FEB0-76BC-6E7F9BE55D7E}|DentalBookingMvc.csproj|c:\\users\\patry\\desktop\\dentalbookingmvc\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2CD2D2B5-FE36-FEB0-76BC-6E7F9BE55D7E}|DentalBookingMvc.csproj|solutionrelative:views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CD2D2B5-FE36-FEB0-76BC-6E7F9BE55D7E}|DentalBookingMvc.csproj|c:\\users\\patry\\desktop\\dentalbookingmvc\\views\\reservations\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2CD2D2B5-FE36-FEB0-76BC-6E7F9BE55D7E}|DentalBookingMvc.csproj|solutionrelative:views\\reservations\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CD2D2B5-FE36-FEB0-76BC-6E7F9BE55D7E}|DentalBookingMvc.csproj|c:\\users\\patry\\desktop\\dentalbookingmvc\\models\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CD2D2B5-FE36-FEB0-76BC-6E7F9BE55D7E}|DentalBookingMvc.csproj|solutionrelative:models\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CD2D2B5-FE36-FEB0-76BC-6E7F9BE55D7E}|DentalBookingMvc.csproj|c:\\users\\patry\\desktop\\dentalbookingmvc\\models\\reservationeditvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CD2D2B5-FE36-FEB0-76BC-6E7F9BE55D7E}|DentalBookingMvc.csproj|solutionrelative:models\\reservationeditvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CD2D2B5-FE36-FEB0-76BC-6E7F9BE55D7E}|DentalBookingMvc.csproj|c:\\users\\patry\\desktop\\dentalbookingmvc\\models\\reservationcreatevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CD2D2B5-FE36-FEB0-76BC-6E7F9BE55D7E}|DentalBookingMvc.csproj|solutionrelative:models\\reservationcreatevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CD2D2B5-FE36-FEB0-76BC-6E7F9BE55D7E}|DentalBookingMvc.csproj|c:\\users\\patry\\desktop\\dentalbookingmvc\\models\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CD2D2B5-FE36-FEB0-76BC-6E7F9BE55D7E}|DentalBookingMvc.csproj|solutionrelative:models\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CD2D2B5-FE36-FEB0-76BC-6E7F9BE55D7E}|DentalBookingMvc.csproj|c:\\users\\patry\\desktop\\dentalbookingmvc\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CD2D2B5-FE36-FEB0-76BC-6E7F9BE55D7E}|DentalBookingMvc.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CD2D2B5-FE36-FEB0-76BC-6E7F9BE55D7E}|DentalBookingMvc.csproj|c:\\users\\patry\\desktop\\dentalbookingmvc\\models\\dentist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CD2D2B5-FE36-FEB0-76BC-6E7F9BE55D7E}|DentalBookingMvc.csproj|solutionrelative:models\\dentist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CD2D2B5-FE36-FEB0-76BC-6E7F9BE55D7E}|DentalBookingMvc.csproj|c:\\users\\patry\\desktop\\dentalbookingmvc\\models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CD2D2B5-FE36-FEB0-76BC-6E7F9BE55D7E}|DentalBookingMvc.csproj|solutionrelative:models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CD2D2B5-FE36-FEB0-76BC-6E7F9BE55D7E}|DentalBookingMvc.csproj|c:\\users\\patry\\desktop\\dentalbookingmvc\\data\\dataseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CD2D2B5-FE36-FEB0-76BC-6E7F9BE55D7E}|DentalBookingMvc.csproj|solutionrelative:data\\dataseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CD2D2B5-FE36-FEB0-76BC-6E7F9BE55D7E}|DentalBookingMvc.csproj|c:\\users\\patry\\desktop\\dentalbookingmvc\\data\\appdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CD2D2B5-FE36-FEB0-76BC-6E7F9BE55D7E}|DentalBookingMvc.csproj|solutionrelative:data\\appdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CD2D2B5-FE36-FEB0-76BC-6E7F9BE55D7E}|DentalBookingMvc.csproj|c:\\users\\patry\\desktop\\dentalbookingmvc\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CD2D2B5-FE36-FEB0-76BC-6E7F9BE55D7E}|DentalBookingMvc.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CD2D2B5-FE36-FEB0-76BC-6E7F9BE55D7E}|DentalBookingMvc.csproj|c:\\users\\patry\\desktop\\dentalbookingmvc\\controllers\\servicescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CD2D2B5-FE36-FEB0-76BC-6E7F9BE55D7E}|DentalBookingMvc.csproj|solutionrelative:controllers\\servicescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CD2D2B5-FE36-FEB0-76BC-6E7F9BE55D7E}|DentalBookingMvc.csproj|c:\\users\\patry\\desktop\\dentalbookingmvc\\controllers\\reservationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CD2D2B5-FE36-FEB0-76BC-6E7F9BE55D7E}|DentalBookingMvc.csproj|solutionrelative:controllers\\reservationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CD2D2B5-FE36-FEB0-76BC-6E7F9BE55D7E}|DentalBookingMvc.csproj|c:\\users\\patry\\desktop\\dentalbookingmvc\\areas\\admin\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2CD2D2B5-FE36-FEB0-76BC-6E7F9BE55D7E}|DentalBookingMvc.csproj|solutionrelative:areas\\admin\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CD2D2B5-FE36-FEB0-76BC-6E7F9BE55D7E}|DentalBookingMvc.csproj|c:\\users\\patry\\desktop\\dentalbookingmvc\\areas\\admin\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2CD2D2B5-FE36-FEB0-76BC-6E7F9BE55D7E}|DentalBookingMvc.csproj|solutionrelative:areas\\admin\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CD2D2B5-FE36-FEB0-76BC-6E7F9BE55D7E}|DentalBookingMvc.csproj|c:\\users\\patry\\desktop\\dentalbookingmvc\\areas\\admin\\views\\services\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2CD2D2B5-FE36-FEB0-76BC-6E7F9BE55D7E}|DentalBookingMvc.csproj|solutionrelative:areas\\admin\\views\\services\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CD2D2B5-FE36-FEB0-76BC-6E7F9BE55D7E}|DentalBookingMvc.csproj|c:\\users\\patry\\desktop\\dentalbookingmvc\\areas\\admin\\views\\services\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2CD2D2B5-FE36-FEB0-76BC-6E7F9BE55D7E}|DentalBookingMvc.csproj|solutionrelative:areas\\admin\\views\\services\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CD2D2B5-FE36-FEB0-76BC-6E7F9BE55D7E}|DentalBookingMvc.csproj|c:\\users\\patry\\desktop\\dentalbookingmvc\\areas\\admin\\views\\services\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2CD2D2B5-FE36-FEB0-76BC-6E7F9BE55D7E}|DentalBookingMvc.csproj|solutionrelative:areas\\admin\\views\\services\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CD2D2B5-FE36-FEB0-76BC-6E7F9BE55D7E}|DentalBookingMvc.csproj|c:\\users\\patry\\desktop\\dentalbookingmvc\\areas\\admin\\controllers\\reservationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CD2D2B5-FE36-FEB0-76BC-6E7F9BE55D7E}|DentalBookingMvc.csproj|solutionrelative:areas\\admin\\controllers\\reservationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CD2D2B5-FE36-FEB0-76BC-6E7F9BE55D7E}|DentalBookingMvc.csproj|c:\\users\\patry\\desktop\\dentalbookingmvc\\areas\\admin\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CD2D2B5-FE36-FEB0-76BC-6E7F9BE55D7E}|DentalBookingMvc.csproj|solutionrelative:areas\\admin\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CD2D2B5-FE36-FEB0-76BC-6E7F9BE55D7E}|DentalBookingMvc.csproj|c:\\users\\patry\\desktop\\dentalbookingmvc\\migrations\\20260207235355_makenotenullable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CD2D2B5-FE36-FEB0-76BC-6E7F9BE55D7E}|DentalBookingMvc.csproj|solutionrelative:migrations\\20260207235355_makenotenullable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CD2D2B5-FE36-FEB0-76BC-6E7F9BE55D7E}|DentalBookingMvc.csproj|c:\\users\\patry\\desktop\\dentalbookingmvc\\migrations\\20260207233311_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CD2D2B5-FE36-FEB0-76BC-6E7F9BE55D7E}|DentalBookingMvc.csproj|solutionrelative:migrations\\20260207233311_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 14,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:4:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\patry\\Desktop\\DentalBookingMvc\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\patry\\Desktop\\DentalBookingMvc\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-08T02:26:11.805Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\patry\\Desktop\\DentalBookingMvc\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\patry\\Desktop\\DentalBookingMvc\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-08T02:25:40.155Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ReservationEditVm.cs",
+              "DocumentMoniker": "C:\\Users\\patry\\Desktop\\DentalBookingMvc\\Models\\ReservationEditVm.cs",
+              "RelativeDocumentMoniker": "Models\\ReservationEditVm.cs",
+              "ToolTip": "C:\\Users\\patry\\Desktop\\DentalBookingMvc\\Models\\ReservationEditVm.cs",
+              "RelativeToolTip": "Models\\ReservationEditVm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-08T00:36:58.378Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Service.cs",
+              "DocumentMoniker": "C:\\Users\\patry\\Desktop\\DentalBookingMvc\\Models\\Service.cs",
+              "RelativeDocumentMoniker": "Models\\Service.cs",
+              "ToolTip": "C:\\Users\\patry\\Desktop\\DentalBookingMvc\\Models\\Service.cs",
+              "RelativeToolTip": "Models\\Service.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-06T16:28:43.144Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "TimeSlot.cs",
+              "DocumentMoniker": "C:\\Users\\patry\\Desktop\\DentalBookingMvc\\Models\\TimeSlot.cs",
+              "RelativeDocumentMoniker": "Models\\TimeSlot.cs",
+              "ToolTip": "C:\\Users\\patry\\Desktop\\DentalBookingMvc\\Models\\TimeSlot.cs",
+              "RelativeToolTip": "Models\\TimeSlot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-06T16:28:50.125Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\patry\\Desktop\\DentalBookingMvc\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\patry\\Desktop\\DentalBookingMvc\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-06T16:59:51.348Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\patry\\Desktop\\DentalBookingMvc\\Views\\Services\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Services\\Index.cshtml",
+              "ToolTip": "C:\\Users\\patry\\Desktop\\DentalBookingMvc\\Views\\Services\\Index.cshtml",
+              "RelativeToolTip": "Views\\Services\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-07T23:24:23.093Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\patry\\Desktop\\DentalBookingMvc\\Views\\Reservations\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Reservations\\Create.cshtml",
+              "ToolTip": "C:\\Users\\patry\\Desktop\\DentalBookingMvc\\Views\\Reservations\\Create.cshtml",
+              "RelativeToolTip": "Views\\Reservations\\Create.cshtml",
+              "ViewState": "AgIAAD8AAAAAAAAAAADwv3IAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-06T16:31:14.089Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ChooseDentist.cshtml",
+              "DocumentMoniker": "C:\\Users\\patry\\Desktop\\DentalBookingMvc\\Views\\Reservations\\ChooseDentist.cshtml",
+              "RelativeDocumentMoniker": "Views\\Reservations\\ChooseDentist.cshtml",
+              "ToolTip": "C:\\Users\\patry\\Desktop\\DentalBookingMvc\\Views\\Reservations\\ChooseDentist.cshtml",
+              "RelativeToolTip": "Views\\Reservations\\ChooseDentist.cshtml",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwEMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-07T23:19:08.167Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\patry\\Desktop\\DentalBookingMvc\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\patry\\Desktop\\DentalBookingMvc\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-08T01:52:08.621Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "My.cshtml",
+              "DocumentMoniker": "C:\\Users\\patry\\Desktop\\DentalBookingMvc\\Views\\Reservations\\My.cshtml",
+              "RelativeDocumentMoniker": "Views\\Reservations\\My.cshtml",
+              "ToolTip": "C:\\Users\\patry\\Desktop\\DentalBookingMvc\\Views\\Reservations\\My.cshtml",
+              "RelativeToolTip": "Views\\Reservations\\My.cshtml",
+              "ViewState": "AgIAADwAAAAAAAAAAADwv28AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-06T17:01:59.495Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\patry\\Desktop\\DentalBookingMvc\\Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
+              "ToolTip": "C:\\Users\\patry\\Desktop\\DentalBookingMvc\\Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAQwDgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-08T01:31:52.016Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\patry\\Desktop\\DentalBookingMvc\\Areas\\Admin\\Views\\Reservations\\Index.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Reservations\\Index.cshtml",
+              "ToolTip": "C:\\Users\\patry\\Desktop\\DentalBookingMvc\\Areas\\Admin\\Views\\Reservations\\Index.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Reservations\\Index.cshtml",
+              "ViewState": "AgIAACkAAAAAAAAAAAAQwGQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-07T23:40:22.482Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\patry\\Desktop\\DentalBookingMvc\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\patry\\Desktop\\DentalBookingMvc\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-08T01:51:57.712Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\patry\\Desktop\\DentalBookingMvc\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "C:\\Users\\patry\\Desktop\\DentalBookingMvc\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-08T01:52:03.384Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\patry\\Desktop\\DentalBookingMvc\\Areas\\Admin\\Views\\TimeSlots\\Index.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\TimeSlots\\Index.cshtml",
+              "ToolTip": "C:\\Users\\patry\\Desktop\\DentalBookingMvc\\Areas\\Admin\\Views\\TimeSlots\\Index.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\TimeSlots\\Index.cshtml",
+              "ViewState": "AgIAACMAAAAAAAAAAAAQwF4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-08T01:31:15.921Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\patry\\Desktop\\DentalBookingMvc\\Areas\\Admin\\Views\\Services\\Create.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Services\\Create.cshtml",
+              "ToolTip": "C:\\Users\\patry\\Desktop\\DentalBookingMvc\\Areas\\Admin\\Views\\Services\\Create.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Services\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAQwBMAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-08T00:40:49.279Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\patry\\Desktop\\DentalBookingMvc\\Areas\\Admin\\Views\\TimeSlots\\Create.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\TimeSlots\\Create.cshtml",
+              "ToolTip": "C:\\Users\\patry\\Desktop\\DentalBookingMvc\\Areas\\Admin\\Views\\TimeSlots\\Create.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\TimeSlots\\Create.cshtml",
+              "ViewState": "AgIAABYAAAAAAAAAAAAAwEkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-08T01:31:35.382Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ReservationCreateVm.cs",
+              "DocumentMoniker": "C:\\Users\\patry\\Desktop\\DentalBookingMvc\\Models\\ReservationCreateVm.cs",
+              "RelativeDocumentMoniker": "Models\\ReservationCreateVm.cs",
+              "ToolTip": "C:\\Users\\patry\\Desktop\\DentalBookingMvc\\Models\\ReservationCreateVm.cs",
+              "RelativeToolTip": "Models\\ReservationCreateVm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-06T16:28:36.106Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Reservation.cs",
+              "DocumentMoniker": "C:\\Users\\patry\\Desktop\\DentalBookingMvc\\Models\\Reservation.cs",
+              "RelativeDocumentMoniker": "Models\\Reservation.cs",
+              "ToolTip": "C:\\Users\\patry\\Desktop\\DentalBookingMvc\\Models\\Reservation.cs",
+              "RelativeToolTip": "Models\\Reservation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-06T16:28:23.912Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\patry\\Desktop\\DentalBookingMvc\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\patry\\Desktop\\DentalBookingMvc\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-06T16:28:15.447Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Dentist.cs",
+              "DocumentMoniker": "C:\\Users\\patry\\Desktop\\DentalBookingMvc\\Models\\Dentist.cs",
+              "RelativeDocumentMoniker": "Models\\Dentist.cs",
+              "ToolTip": "C:\\Users\\patry\\Desktop\\DentalBookingMvc\\Models\\Dentist.cs",
+              "RelativeToolTip": "Models\\Dentist.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-06T16:28:04.391Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\patry\\Desktop\\DentalBookingMvc\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\patry\\Desktop\\DentalBookingMvc\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "wwwroot\\css\\site.css",
+              "ViewState": "AgIAAL0AAAAAAAAAAAAAwPkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-02-08T02:08:45.036Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "TimeSlotsController.cs",
+              "DocumentMoniker": "C:\\Users\\patry\\Desktop\\DentalBookingMvc\\Areas\\Admin\\Controllers\\TimeSlotsController.cs",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\TimeSlotsController.cs",
+              "ToolTip": "C:\\Users\\patry\\Desktop\\DentalBookingMvc\\Areas\\Admin\\Controllers\\TimeSlotsController.cs",
+              "RelativeToolTip": "Areas\\Admin\\Controllers\\TimeSlotsController.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAYwGUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-08T01:30:29.735Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\patry\\Desktop\\DentalBookingMvc\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\Error.cshtml",
+              "ToolTip": "C:\\Users\\patry\\Desktop\\DentalBookingMvc\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "Views\\Shared\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-08T01:52:14.905Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\patry\\Desktop\\DentalBookingMvc\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\patry\\Desktop\\DentalBookingMvc\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-08T01:52:25.155Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "AppUser.cs",
+              "DocumentMoniker": "C:\\Users\\patry\\Desktop\\DentalBookingMvc\\Models\\AppUser.cs",
+              "RelativeDocumentMoniker": "Models\\AppUser.cs",
+              "ToolTip": "C:\\Users\\patry\\Desktop\\DentalBookingMvc\\Models\\AppUser.cs",
+              "RelativeToolTip": "Models\\AppUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-06T16:27:53.758Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "DataSeeder.cs",
+              "DocumentMoniker": "C:\\Users\\patry\\Desktop\\DentalBookingMvc\\Data\\DataSeeder.cs",
+              "RelativeDocumentMoniker": "Data\\DataSeeder.cs",
+              "ToolTip": "C:\\Users\\patry\\Desktop\\DentalBookingMvc\\Data\\DataSeeder.cs",
+              "RelativeToolTip": "Data\\DataSeeder.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAYwDsAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-06T16:27:45.637Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\patry\\Desktop\\DentalBookingMvc\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\patry\\Desktop\\DentalBookingMvc\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-08T00:06:32.734Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "AppDbContextFactory.cs",
+              "DocumentMoniker": "C:\\Users\\patry\\Desktop\\DentalBookingMvc\\Data\\AppDbContextFactory.cs",
+              "RelativeDocumentMoniker": "Data\\AppDbContextFactory.cs",
+              "ToolTip": "C:\\Users\\patry\\Desktop\\DentalBookingMvc\\Data\\AppDbContextFactory.cs",
+              "RelativeToolTip": "Data\\AppDbContextFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-06T16:27:38.558Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\patry\\Desktop\\DentalBookingMvc\\Views\\Reservations\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Reservations\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\patry\\Desktop\\DentalBookingMvc\\Views\\Reservations\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Reservations\\Edit.cshtml",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwCgAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-08T00:38:11.483Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\patry\\Desktop\\DentalBookingMvc\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\patry\\Desktop\\DentalBookingMvc\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-06T16:27:30.77Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "ServicesController.cs",
+              "DocumentMoniker": "C:\\Users\\patry\\Desktop\\DentalBookingMvc\\Controllers\\ServicesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ServicesController.cs",
+              "ToolTip": "C:\\Users\\patry\\Desktop\\DentalBookingMvc\\Controllers\\ServicesController.cs",
+              "RelativeToolTip": "Controllers\\ServicesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-06T16:27:20.325Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "ReservationsController.cs",
+              "DocumentMoniker": "C:\\Users\\patry\\Desktop\\DentalBookingMvc\\Controllers\\ReservationsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ReservationsController.cs",
+              "ToolTip": "C:\\Users\\patry\\Desktop\\DentalBookingMvc\\Controllers\\ReservationsController.cs",
+              "RelativeToolTip": "Controllers\\ReservationsController.cs",
+              "ViewState": "AgIAALcAAAAAAAAAAAAAwM0AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-06T16:27:12.012Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\patry\\Desktop\\DentalBookingMvc\\Areas\\Admin\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\patry\\Desktop\\DentalBookingMvc\\Areas\\Admin\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-08T00:16:43.586Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\patry\\Desktop\\DentalBookingMvc\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\patry\\Desktop\\DentalBookingMvc\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-08T01:01:22.139Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\patry\\Desktop\\DentalBookingMvc\\Areas\\Admin\\Views\\Services\\Index.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Services\\Index.cshtml",
+              "ToolTip": "C:\\Users\\patry\\Desktop\\DentalBookingMvc\\Areas\\Admin\\Views\\Services\\Index.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Services\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-08T00:40:16.577Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\patry\\Desktop\\DentalBookingMvc\\Areas\\Admin\\Views\\Services\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Services\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\patry\\Desktop\\DentalBookingMvc\\Areas\\Admin\\Views\\Services\\Edit.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Services\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-08T00:41:07.347Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\patry\\Desktop\\DentalBookingMvc\\Areas\\Admin\\Views\\Services\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Services\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\patry\\Desktop\\DentalBookingMvc\\Areas\\Admin\\Views\\Services\\Delete.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Services\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-08T00:42:21.45Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "ReservationsController.cs",
+              "DocumentMoniker": "C:\\Users\\patry\\Desktop\\DentalBookingMvc\\Areas\\Admin\\Controllers\\ReservationsController.cs",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\ReservationsController.cs",
+              "ToolTip": "C:\\Users\\patry\\Desktop\\DentalBookingMvc\\Areas\\Admin\\Controllers\\ReservationsController.cs",
+              "RelativeToolTip": "Areas\\Admin\\Controllers\\ReservationsController.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAmwE0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-07T23:38:56.874Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "C:\\Users\\patry\\Desktop\\DentalBookingMvc\\Areas\\Admin\\Controllers\\DashboardController.cs",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\DashboardController.cs",
+              "ToolTip": "C:\\Users\\patry\\Desktop\\DentalBookingMvc\\Areas\\Admin\\Controllers\\DashboardController.cs",
+              "RelativeToolTip": "Areas\\Admin\\Controllers\\DashboardController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-08T01:48:05.113Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "20260207235355_MakeNoteNullable.cs",
+              "DocumentMoniker": "C:\\Users\\patry\\Desktop\\DentalBookingMvc\\Migrations\\20260207235355_MakeNoteNullable.cs",
+              "RelativeDocumentMoniker": "Migrations\\20260207235355_MakeNoteNullable.cs",
+              "ToolTip": "C:\\Users\\patry\\Desktop\\DentalBookingMvc\\Migrations\\20260207235355_MakeNoteNullable.cs",
+              "RelativeToolTip": "Migrations\\20260207235355_MakeNoteNullable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-07T23:53:55.414Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "20260207233311_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\patry\\Desktop\\DentalBookingMvc\\Migrations\\20260207233311_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Migrations\\20260207233311_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\patry\\Desktop\\DentalBookingMvc\\Migrations\\20260207233311_InitialCreate.cs",
+              "RelativeToolTip": "Migrations\\20260207233311_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-07T23:33:12.102Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
